@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semestral_Work.MainPage"
+             Title="App for Prepearing for Exams"
+             BackgroundColor="#F2F2F2">
+
+    <StackLayout>
+        <Frame BackgroundColor="#1C2026" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to an app for Preparing for Exams" HorizontalTextAlignment="Center" TextColor="#F2F2F2" FontSize="36" FontAttributes="Bold"/>
+        </Frame>
+
+        <Label Text="Here you will find exercises for preparing for entrance examinations in different universities" HorizontalTextAlignment="Center" FontSize="25" Padding="10,20,00,10" TextColor="#1C2026"/>
+
+
+        <Button Text="Start to train" TextColor="#F2F2F2" FontSize="25" BackgroundColor="#F2506E" CornerRadius="30" Padding="17"  Margin="90" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+               Clicked="Start_button" />
+
+
+        <Label Text="This app is made by Lipina Ekaterina as a semestral work for Programming 2 for summer semestr 2021 "  VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center" FontSize="16" Padding="20,00,20,70" TextColor="#283959"/>
+    </StackLayout>
+
+
+</ContentPage>

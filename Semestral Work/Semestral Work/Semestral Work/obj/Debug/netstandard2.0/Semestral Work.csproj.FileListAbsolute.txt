@@ -1,0 +1,21 @@
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\bin\Debug\netstandard2.0\Semestral Work.deps.json
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\bin\Debug\netstandard2.0\Semestral Work.dll
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\bin\Debug\netstandard2.0\ref\Semestral Work.dll
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\bin\Debug\netstandard2.0\Semestral Work.pdb
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\Semestral Work.csproj.AssemblyReference.cache
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\Semestral Work.AssemblyInfoInputs.cache
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\Semestral Work.AssemblyInfo.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\Semestral Work.csproj.CoreCompileInputs.cache
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\Semestral Work.dll
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\ref\Semestral Work.dll
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\Semestral Work.pdb
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\¨Menu.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\Cuni.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\CvutExams.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\masaryk.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\RandomTasks.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\SCIO.xaml.g.cs
+C:\Users\kajam\Desktop\Semestral Work\Semestral Work\Semestral Work\obj\Debug\netstandard2.0\stat.xaml.g.cs
