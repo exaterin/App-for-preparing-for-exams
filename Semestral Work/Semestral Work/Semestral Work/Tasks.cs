@@ -22,13 +22,13 @@ using System.Text;
 2;Jestliže cos(a + π) = 1, pak  ctg(a) = ;nedefinován;0;-1;1
 2;Poměr objemu krychle ABCDEFGH a objemu jehlanu ABCF je;9:1;3:1;6:1;4:1
 2;Jestliže sin(2α) = 1, pak tg(a) je ;1;-1;0;nedefinován
-2;V aritmetické posloupnosti (an)∞n=1 jsou členy a2 = −2 a a5 = 13. Člen a1 je: ;-7;-6;-3;-4
+2;V aritmetické posloupnosti jsou členy a2 = −2 a a5 = 13. Člen a1 je: ;-7;-6;-3;-4
 2;Mezi čísla 32 a 2 vložte tři čísla tak, aby spolu s vloženými čísly tvořila pět členů geometrické posloupnosti. Prostřední z vložených čísel je: ;8;-8;2;6
 2;Zmenšíme-li poloměr podstavy kužele o polovinu a jeho výšku zvětšíme o 20%, zmenší se objem kužele o ; 70%;30%;60%;10%;
 2;Jestliže v trojúhelníku ABC je úhel γ = 0,5 (α + β), potom je jeho velikost rovna ;60;90;45;120
 2;Určete reálné číslo a tak, aby přímka o rovnicích x = 1 + 4t, y=−2+3t, z=t bylarovnoběžnásrovinouax+3y−5z=0;-1;1;0,5;-0,5
-2;Určete hodnotu parametru c ∈ R tak, aby přímky p: x+2y−1 = 0, q: 2x+y+1 = 0, r: x+y+c = 0 měly právě jeden společný bod;c = 0;c = 1;c = 2;c = -1
-2;Určete reálné číslo t tak, aby vektor w = (4, 1, t) byl lineární kombinací vektorů u = (2, −1, 3) a v = (0, 1, −5);t = -9; t = 5; t = -2; t = 7
+3;Určete hodnotu parametru c ∈ R tak, aby přímky p: x+2y−1 = 0, q: 2x+y+1 = 0, r: x+y+c = 0 měly právě jeden společný bod;c = 0;c = 1;c = 2;c = -1
+3;Určete reálné číslo t tak, aby vektor w = (4, 1, t) byl lineární kombinací vektorů u = (2, −1, 3) a v = (0, 1, −5);t = -9; t = 5; t = -2; t = 7
 3;Konvexní mnohoúhelník má přesně 77 úhlopříček. Určete, co platí pro počet jeho stran; Je sudý; Je dělitelný 3;Je větší než 15;Je dělitelný 5
 3;Funkce f(x) = x|x| je ;lichá;sudá;klesající;na
 3;V geometrické posloupnosti je člen a5 = −8 a člen a6 = 16. Určete člen a1;-0,5;1;0,5;-1

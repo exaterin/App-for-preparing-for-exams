@@ -40,63 +40,27 @@ namespace Semestral_Work
 
         }
 
-        private async void first_clicked(object sender, EventArgs e) {
-            if (first.Text == correct)
-            {
-                ProcessQuestions.CorrectAnswer();
-                PrintTask();
-                right.Text = ProcessQuestions.right_ans.ToString();
-            }
-            else {
-                ProcessQuestions.Incorrectanswer();
-                await DisplayAlert("Wrong answer", "You can skip or try again", "OK");
-                incorrect.Text = ProcessQuestions.incorrect_ans.ToString();
-            }
+         async void Clicked(object sender, EventArgs e) { 
 
-        }
-        private async void second_clicked(object sender, EventArgs e) {
-            if (second.Text == correct)
-            {
+            if (first.Text == correct){
                 ProcessQuestions.CorrectAnswer();
                 PrintTask();
                 right.Text = ProcessQuestions.right_ans.ToString();
             }
-            else
-            {
+            else{
                 ProcessQuestions.Incorrectanswer();
                 await DisplayAlert("Wrong answer", "You can skip or try again", "OK");
                 incorrect.Text = ProcessQuestions.incorrect_ans.ToString();
-            }
+            } 
+        }
 
-        }
-        private async void third_clicked(object sender, EventArgs e) {
-            if (third.Text == correct)
-            {
-                ProcessQuestions.CorrectAnswer();
-                PrintTask();
-                right.Text = ProcessQuestions.right_ans.ToString();
-            }
-            else
-            {
-                ProcessQuestions.Incorrectanswer();
-                await DisplayAlert("Wrong answer", "You can skip or try again", "OK");
-                incorrect.Text = ProcessQuestions.incorrect_ans.ToString();
-            }
-        }
-        private async void fourth_clicked(object sender, EventArgs e) {
-            if (fourth.Text == correct)
-            {
-                ProcessQuestions.CorrectAnswer();
-                PrintTask();
-                right.Text = ProcessQuestions.right_ans.ToString();
-            }
-            else
-            {
-                ProcessQuestions.Incorrectanswer();
-                await DisplayAlert("Wrong answer", "You can skip or try again", "OK");
-                incorrect.Text = ProcessQuestions.incorrect_ans.ToString();
-            }
-        }
+        private void first_clicked(object sender, EventArgs e) { Clicked(sender, e); }
+        private void second_clicked(object sender, EventArgs e) { Clicked(sender, e); }
+
+        private void third_clicked(object sender, EventArgs e) { Clicked(sender, e); }
+
+        private void fourth_clicked(object sender, EventArgs e) { Clicked(sender, e); }
+
         private async void SkipClicked(object sender, EventArgs e) {
             ProcessQuestions.number_of_tasks += 1;
             ProcessQuestions.skips += 1;

@@ -17,23 +17,23 @@ namespace Semestral_Work
 		}
 		private async void random_tasks(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new RandomTasks());
+			await Navigation.PushAsync(new QuestionPage('0'));
 		}
 		private async void SCIO_but(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new SCIO());
+			await Navigation.PushAsync(new QuestionPage('1'));
 		}
 		private async void Cvut_but(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new CvutExams());
+			await Navigation.PushAsync(new QuestionPage('2'));
 		}
 		private async void cuni_but(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new Cuni());
+			await Navigation.PushAsync(new QuestionPage('3'));
 		}
 		private async void masaryk_but(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new masaryk());
+			await Navigation.PushAsync(new QuestionPage('4'));
 		}
 		private async void stat_but(object sender, EventArgs e)
 		{

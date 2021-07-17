@@ -8,13 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Semestral_Work.masaryk.xaml", "masaryk.xaml", typeof(global::Semestral_Work.masaryk))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Semestral_Work.QuestionPage.xaml", "QuestionPage.xaml", typeof(global::Semestral_Work.QuestionPage))]
 
 namespace Semestral_Work {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("masaryk.xaml")]
-    public partial class masaryk : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("QuestionPage.xaml")]
+    public partial class QuestionPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ContentPage title;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Label questionXaml;
@@ -45,7 +48,8 @@ namespace Semestral_Work {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(masaryk));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(QuestionPage));
+            title = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "title");
             questionXaml = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "questionXaml");
             first = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "first");
             second = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "second");

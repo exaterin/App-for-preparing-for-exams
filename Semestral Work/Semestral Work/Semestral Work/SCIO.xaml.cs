@@ -105,8 +105,8 @@ namespace Semestral_Work
                 incorrect.Text = ProcessQuestions.incorrect_ans.ToString();
             }
         }
-        private async void SkipClicked(object sender, EventArgs e)
-        {
+        private async void SkipClicked(object sender, EventArgs e) {
+
             ProcessQuestions.number_of_tasks += 1;
             ProcessQuestions.skips += 1;
             PrintTask();
