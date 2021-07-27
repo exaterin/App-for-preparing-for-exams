@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -88,7 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Semestral Work\Semestral Work.csproj">
-      <Project>{E4EED7F4-7E94-48F0-8E5C-DC81A6660009}</Project>
+      <Project>{CB6AB074-EAF7-4491-9EEF-6106B52124BD}</Project>
       <Name>Semestral Work</Name>
     </ProjectReference>
   </ItemGroup>

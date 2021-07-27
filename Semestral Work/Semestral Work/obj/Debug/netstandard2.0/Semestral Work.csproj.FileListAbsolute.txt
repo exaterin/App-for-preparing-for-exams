@@ -1,0 +1,17 @@
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Semestral Work.csproj.AssemblyReference.cache
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Menu.xaml.g.cs
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/QuestionPage.xaml.g.cs
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Statistics.xaml.g.cs
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Semestral Work.AssemblyInfoInputs.cache
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Semestral Work.AssemblyInfo.cs
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Semestral Work.csproj.CoreCompileInputs.cache
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Semestral Work.dll
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/ref/Semestral Work.dll
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/Semestral Work.pdb
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/bin/Debug/netstandard2.0/Semestral Work.deps.json
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/bin/Debug/netstandard2.0/Semestral Work.dll
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/bin/Debug/netstandard2.0/ref/Semestral Work.dll
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/bin/Debug/netstandard2.0/Semestral Work.pdb
+/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/obj/Debug/netstandard2.0/XamlC.stamp

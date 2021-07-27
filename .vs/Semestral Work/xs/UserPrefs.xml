@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{AA8AA3D6-0A08-426C-AB39-3F6CFFE5029E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Semestral Work/Semestral Work/Menu.xaml.cs">
+    <Files>
+      <File FileName="Semestral Work/Semestral Work/MainPage.xaml.cs" Line="7" Column="35" />
+      <File FileName="Semestral Work/Semestral Work/AssemblyInfo.cs" />
+      <File FileName="Semestral Work/Semestral Work/Statistics.xaml" />
+      <File FileName="Semestral Work/Semestral Work/App.xaml" />
+      <File FileName="Semestral Work/Semestral Work/Tasks.cs" />
+      <File FileName="Semestral Work/Semestral Work/MainPage.xaml" Line="9" Column="58" />
+      <File FileName="Semestral Work/Semestral Work/Menu.xaml" />
+      <File FileName="Semestral Work/Semestral Work/Menu.xaml.cs" Line="17" Column="1" />
+      <File FileName="Semestral Work/Semestral Work/QuestionPage.xaml" />
+      <File FileName="Semestral Work/Semestral Work/QuestionPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Semestral Work" expanded="True">
+            <Node name="Semestral Work" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Menu.xaml" expanded="True">
+                <Node name="Menu.xaml.cs" selected="True" />
+              </Node>
+              <Node name="QuestionPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Semestral_220Work.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
