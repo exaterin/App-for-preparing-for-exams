@@ -1,12 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Semestral_Work.Menu">
+             x:Class="Semestral_Work.Menu" 
+             BackgroundColor="#F2F2F2"
+             Title="Menu">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Here are topics with exercises. Choose one and start to prepare for exams!"  HorizontalTextAlignment="Center" FontSize="22" Padding="10,20,00,10" TextColor="#1C2026">
+            </Label>
+            <Button Text="Random tasks" TextColor="#F2F2F2" FontSize="20" Margin="10" BackgroundColor="#F2506E" CornerRadius="30" 
+                    Clicked="random_tasks" ></Button>
+            <Button Text="SCIO's exams" TextColor="#F2F2F2" FontSize="20" Margin="10" BackgroundColor="#283959" CornerRadius="30" 
+                    Clicked="SCIO_but"></Button>
+            <Button Text="Cvut's exams" TextColor="#F2F2F2" FontSize="20" Margin="10" BackgroundColor="#283959" CornerRadius="30" 
+                    Clicked="Cvut_but"></Button>
+            <Button Text="Charles University's exams" TextColor="#F2F2F2" FontSize="20" Margin="10" BackgroundColor="#283959" CornerRadius="30"
+                    Clicked="cuni_but" ></Button>
+            <Button Text="Masaryk University's exams" TextColor="#F2F2F2" FontSize="20" Margin="10" BackgroundColor="#283959" CornerRadius="30"
+                    Clicked="masaryk_but" ></Button>
+            <Button Text="Statistics" TextColor="#F2F2F2" FontSize="20" Margin="10" BackgroundColor="#5AA624" CornerRadius="30" 
+                    Clicked="stat_but"></Button>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
