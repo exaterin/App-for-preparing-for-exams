@@ -26,7 +26,7 @@ namespace Semestral_Work {
             ProcessQuestions.incorrect_ans = 0;
             ProcessQuestions.number_of_tasks = 0;
             ProcessQuestions.skips = 0;
-            int[] last1 = { -1, -1, -1, -1, -1 };
+            int[] last1 = { 0, 0, 0, 0, 0 };
             ProcessQuestions.last = last1;
 
             PrintStat();

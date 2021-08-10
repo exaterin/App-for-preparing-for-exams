@@ -43,6 +43,7 @@ namespace Semestral_Work {
                 if (last)
                     await DisplayAlert("Last task", "You have solved all tasks! If you want to solve them again, you can reset the application in the Statistics", "OK");
                 else {
+                    ProcessQuestions.last[int.Parse(topicPrint.ToString())] += 1;
                     PrintTask(topicPrint);
                     right.Text = ProcessQuestions.right_ans.ToString();
                 }
@@ -66,6 +67,7 @@ namespace Semestral_Work {
                 await DisplayAlert("Last task", "You have solved all tasks! If you want to solve them again, you can reset the application in the Statistics", "OK");
             else{
                 ProcessQuestions.number_of_tasks += 1;
+                ProcessQuestions.last[int.Parse(topicPrint.ToString())] += 1;
                 PrintTask(topicPrint);
             }
         }

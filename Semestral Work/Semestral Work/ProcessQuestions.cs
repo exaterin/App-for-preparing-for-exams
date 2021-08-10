@@ -13,7 +13,7 @@ class ProcessQuestions {
     public static int right_ans = 0;
     public static int number_of_tasks = 0;
     public static int incorrect_ans = 0;
-    public static int [] last = {-1,-1,-1,-1,-1};
+    public static int [] last = {0,0,0,0,0};
 
     public static string[] text = Tasks.Questions.Split('\n');
     static int number_of_questions = text.Length;
@@ -21,8 +21,7 @@ class ProcessQuestions {
     public static QuestionInfo PrepareTask(char topic) {
 
         QuestionInfo questionInfo = new QuestionInfo();
-
-        last[int.Parse(topic.ToString())] += 1;
+        int topic_num = Int32.Parse(topic.ToString());
 
         List<string> chosen_questions = new List<string>();
         int count = 0;
@@ -38,32 +37,27 @@ class ProcessQuestions {
             }
         }
 
-    string[] chosen_quest = chosen_questions[last[Int32.Parse(topic.ToString())]].Split(';');
+        string[] chosen_quest = chosen_questions[last[topic_num]].Split(';');
 
-    string correct_answer = chosen_quest[2];
+        string correct_answer = chosen_quest[2];
 
-    int[] numbers = { 1, 2, 3, 4 };
+        int[] numbers = { 1, 2, 3, 4 };
 
-    for (int i = 0; i < numbers.Length; ++i) {
-        int k = new Random().Next(1, numbers.Length);
-        int temp = numbers[i];
-        numbers[i] = numbers[k];
-        numbers[k] = temp;
-    }
+        for (int i = numbers.Length - 1; i > 0; --i) {
+            int k = new Random().Next(i + 1);
+            (numbers[i], numbers[k]) = (numbers[k], numbers[i]);
+        }
 
-    questionInfo.question = chosen_quest[1];
+        questionInfo.question = chosen_quest[1];
 
-    for (int i = 0; i < 4; ++i)
-        questionInfo.answers[i] = chosen_quest[numbers[i] + 1];
+        for (int i = 0; i < 4; ++i)
+            questionInfo.answers[i] = chosen_quest[numbers[i] + 1];
 
-    questionInfo.correct = correct_answer;
-            
-    if (last[int.Parse(topic.ToString())] + 1 == count)
-        questionInfo.is_last = true;
-    else 
-        questionInfo.is_last = false;
+        questionInfo.correct = correct_answer;
 
-    return questionInfo;
+        questionInfo.is_last = last[topic_num] + 1 == count || last[topic_num] + 1 == number_of_questions;
+
+        return questionInfo;
     }
 
     public static void CorrectAnswer() {

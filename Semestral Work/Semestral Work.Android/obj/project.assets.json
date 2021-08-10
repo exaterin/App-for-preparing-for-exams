@@ -2142,32 +2142,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/ekaterinalipina/.nuget/packages/": {}
+    "C:\\Users\\kajam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work.Android/Semestral Work.Android.csproj",
+      "projectUniqueName": "C:\\Users\\kajam\\Desktop\\Semestral-work_2-main\\Semestral Work\\Semestral Work.Android\\Semestral Work.Android.csproj",
       "projectName": "Semestral Work.Android",
-      "projectPath": "/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work.Android/Semestral Work.Android.csproj",
-      "packagesPath": "/Users/ekaterinalipina/.nuget/packages/",
-      "outputPath": "/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work.Android/obj/",
+      "projectPath": "C:\\Users\\kajam\\Desktop\\Semestral-work_2-main\\Semestral Work\\Semestral Work.Android\\Semestral Work.Android.csproj",
+      "packagesPath": "C:\\Users\\kajam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kajam\\Desktop\\Semestral-work_2-main\\Semestral Work\\Semestral Work.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/ekaterinalipina/.config/NuGet/NuGet.Config"
+        "C:\\Users\\kajam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid11.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/Semestral Work.csproj": {
-              "projectPath": "/Users/ekaterinalipina/Semestral-work_2/Semestral Work/Semestral Work/Semestral Work.csproj"
+            "C:\\Users\\kajam\\Desktop\\Semestral-work_2-main\\Semestral Work\\Semestral Work\\Semestral Work.csproj": {
+              "projectPath": "C:\\Users\\kajam\\Desktop\\Semestral-work_2-main\\Semestral Work\\Semestral Work\\Semestral Work.csproj"
             }
           }
         }
